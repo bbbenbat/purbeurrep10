@@ -98,8 +98,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'purbeurredb',
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_USER_PWD'),
+        'USER': 'purbeurredb_admin',
+        'PASSWORD': 'OCRPython21!',
         'HOST': 'localhost',
         'PORT': '',
     }
