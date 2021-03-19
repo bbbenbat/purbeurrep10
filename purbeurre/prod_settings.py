@@ -10,6 +10,6 @@ TEMPLATE_DEBUG = False
 MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
 
 #ALLOWED_HOSTS = ['purbeurre-ocr.herokuapp.com']
-#ALLOWED_HOSTS = ['188.166.11.194']
+ALLOWED_HOSTS = [os.environ.get('ALD_HOST')]
 
 
