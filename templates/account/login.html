@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="container bg-light p-3 text-left text-warning">
+    <h2>Connexion</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-outline-warning btn-default"
+                type="submit">Se connecter
+        </button>
+    </form>
+
+</div>
+{% endblock %}

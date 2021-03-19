@@ -1,0 +1,54 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+<div class="table-responsive">
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr class="text-warning text-center">
+            <th scope="col">DATE</th>
+            <th scope="col">PRODUIT</th>
+            <th scope="col">NUTRISCORE</th>
+            <th scope="col">STATUT</th>
+            <th scope="col">LIEN</th>
+        </tr>
+        </thead>
+        <tbody class="text-center">
+
+        {% if favorites %}
+        {% for loop in favorites %}
+        {% if loop.active == True %}
+        <tr>
+            <td>{{loop.date}}</td>
+            <td>{{loop.product}}</td>
+            <td>{{loop.nutriscore}}</td>
+            <td>
+
+                <form id="active_product" method="POST" action="{% url 'favorite_update' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="favorite_statut" value=False>
+                    <input type="hidden" name="id_product" value="{{loop.id}}">
+                    <button id="proddeletebtn" class="btn btn-outline-light btn-block" title="Cliquer pour désactiver" type="submit">
+                        ON
+                    </button>
+                </form>
+
+                </td>
+            <td>
+                <form id="produrl" method="POST" action="{% url 'info_product' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="prod_id" value="{{ loop.id }}">
+                    <button id="produrlbtn" class="btn btn-outline-light btn-block" type="submit">
+                        Lien
+                    </button>
+                </form>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% else %}
+        <p class="text-warning bg-light">Vous n'avez pas de produit en favori.</p>
+        {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
