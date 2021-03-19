@@ -7,7 +7,7 @@ TEMPLATE_DEBUG = False
 
 #DATABASES['default'] = dj_database_url.config()
 
-MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
+#MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
 
 
 
