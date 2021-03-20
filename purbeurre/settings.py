@@ -99,7 +99,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'purbeurre',
         'USER': 'purbeurreuser',
-        'PASSWORD': 'OCRPython21!',
+        'PASSWORD': os.environ.get('DB_USER_PWD'),
         'HOST': 'localhost',
         'PORT': '',
     }
