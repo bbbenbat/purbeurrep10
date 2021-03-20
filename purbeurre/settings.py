@@ -93,12 +93,14 @@ WSGI_APPLICATION = 'purbeurre.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+PWD_DB = os.getenv('DB_USER_PWD')
+USER_DB = os.getenv('DB_USER')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'purbeurre',
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_USER_PWD'),
+        'USER': USER_DB,
+        'PASSWORD': PWD_DB,
         'HOST': 'localhost',
         'PORT': '',
     }
