@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'purbeurre.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-PWD_DB = os.environ.get('DB_USER_PWD')
+PWD_DB = os.getenv('DB_USER_PWD')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
