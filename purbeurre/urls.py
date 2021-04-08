@@ -21,6 +21,9 @@ from django.urls import path, include
 from accounts import views as vws
 from researches import views
 
+handler404 = 'researches.views.handler404'
+handler500 = 'researches.views.handler500'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),  # new
