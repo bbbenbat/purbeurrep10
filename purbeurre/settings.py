@@ -18,7 +18,7 @@ from sentry_sdk.integrations.django import DjangoIntegration
 from django.core.exceptions import ImproperlyConfigured
 
 sentry_sdk.init(
-    dsn='DSN_SENTRY',
+    dsn=os.getenv('DSN_SENTRY'),
     integrations=[DjangoIntegration()],
 
     # Set traces_sample_rate to 1.0 to capture 100%
