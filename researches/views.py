@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.template import RequestContext
 from django.views.generic import TemplateView
 
+from django.http import HttpResponseNotFound
+from sentry_sdk import capture_message
+
 from researches.controllers import best_product, favorites, info_prod
 
 favproduct = favorites.Favorites()
@@ -88,14 +91,16 @@ def legal(request):
 def profil_user(request):
     return render(request, 'account/profil_user.html')
 
+def handler404(*args, **kwargs):
+    capture_message("Cette page n'existe pas!", level="error")
 
-def handler404(request, *args, **argv):
-    response = render(request, '404.html')
-    response.status_code = 404
-    return response
+    # return any response here, e.g.:
+    return HttpResponseNotFound("Not found")
+
+def handler500(*args, **kwargs):
+    capture_message("Erreur serveur!", level="error")
+
+    # return any response here, e.g.:
+    return HttpResponseNotFound("Not found")
 
 
-def handler500(request, *args, **argv):
-    response = render(request, '500.html')
-    response.status_code = 500
-    return response
