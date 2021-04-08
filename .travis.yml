@@ -1,8 +1,8 @@
 language: python
 python:
-  - '3.8.6'
+  - "3.8"
 
-before_script:
+install:
   - pip install -r requirements.txt
 
 env: DJANGO_SETTINGS_MODULE="purbeurre.settings"
@@ -16,4 +16,4 @@ branches:
     - testing
 
 script:
-  - ./manage.py test
+  - pytest

@@ -1,3 +1,4 @@
+from django.http import HttpResponseNotFound
 from django.shortcuts import render
 from django.views.generic import TemplateView
 
@@ -86,3 +87,14 @@ def legal(request):
 
 def profil_user(request):
     return render(request, 'account/profil_user.html')
+
+
+def capture_message(param, level):
+    pass
+
+
+def my_custom_page_not_found_view(*args, **kwargs):
+    capture_message("Page not found!", level="error")
+
+    # return any response here, e.g.:
+    return HttpResponseNotFound("Not found")
