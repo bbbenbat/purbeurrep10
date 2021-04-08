@@ -12,7 +12,29 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 
+import sentry_sdk
 from django.core.exceptions import ImproperlyConfigured
+from sentry_sdk.integrations.django import DjangoIntegration
+
+sentry_sdk.init(
+    dsn='DSN_SENTRY',
+    integrations=[DjangoIntegration()],
+
+    # Set traces_sample_rate to 1.0 to capture 100%
+    # of transactions for performance monitoring.
+    # We recommend adjusting this value in production,
+    traces_sample_rate=1.0,
+
+    # If you wish to associate users to errors (assuming you are using
+    # django.contrib.auth) you may enable sending PII data.
+    send_default_pii=True,
+
+    # By default the SDK will try to use the SENTRY_RELEASE
+    # environment variable, or infer a git commit
+    # SHA as release, however you may want to set
+    # something more human-readable.
+    # release="myapp@1.0.0",
+)
 
 
 def get_env_variable(var_name, default_value):
@@ -58,7 +80,7 @@ INSTALLED_APPS = [
     'allauth.account',  # new
     'allauth.socialaccount',  # new
     'accounts',  # new
-    #'storages'
+    # 'storages'
 ]
 
 MIDDLEWARE = [
@@ -144,7 +166,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # new
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # new
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # new
 STATIC_URL = '/static/'  # new
 
@@ -175,12 +197,12 @@ ACCOUNT_LOGOUT_ON_GET = True  # new
 LOGIN_REDIRECT_URL = 'home'  # new
 ACCOUNT_LOGOUT_REDIRECT_URL = 'home'  # new
 
-#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')  # new
-#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')  # new
-#AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')  # new
-#AWS_S3_REGION_NAME = os.environ.get('AWS_S3_REGION_NAME')  # new
+# AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')  # new
+# AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')  # new
+# AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')  # new
+# AWS_S3_REGION_NAME = os.environ.get('AWS_S3_REGION_NAME')  # new
 
-#AWS_S3_FILE_OVERWRITE = False  # new
-#AWS_DEFAULT_ACL = None  # new
+# AWS_S3_FILE_OVERWRITE = False  # new
+# AWS_DEFAULT_ACL = None  # new
 
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'  # new
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'  # new
