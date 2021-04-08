@@ -16,4 +16,4 @@ branches:
     - testing
 
 script:
-  - manage.py pytest
+  - pytest
