@@ -13,8 +13,9 @@ import os
 from pathlib import Path
 
 import sentry_sdk
-from django.core.exceptions import ImproperlyConfigured
 from sentry_sdk.integrations.django import DjangoIntegration
+
+from django.core.exceptions import ImproperlyConfigured
 
 sentry_sdk.init(
     dsn='DSN_SENTRY',
