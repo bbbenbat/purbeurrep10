@@ -64,7 +64,7 @@ SECRET_KEY = get_env_variable('SECRET_KEY',
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['188.166.11.194']
+ALLOWED_HOSTS = [os.getenv('IP_SERVER_DO')]
 
 # Application definition
 
