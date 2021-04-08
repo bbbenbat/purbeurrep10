@@ -95,12 +95,12 @@ def handler404(*args, **kwargs):
     capture_message("Cette page n'existe pas!", level="error")
 
     # return any response here, e.g.:
-    return HttpResponseNotFound("Not found")
+    return HttpResponseNotFound("Cette page n'existe pas!")
 
 def handler500(*args, **kwargs):
     capture_message("Erreur serveur!", level="error")
 
     # return any response here, e.g.:
-    return HttpResponseNotFound("Not found")
+    return HttpResponseNotFound("Erreur serveur!")
 
 
