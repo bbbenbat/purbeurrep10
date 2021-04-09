@@ -1,0 +1,6 @@
+
+gpython:S1192"ODefine a constant instead of duplicating this literal 'Pomme de terre' 4 times.(ä×»ï
+lpython:S1192+"TDefine a constant instead of duplicating this literal 'Soupe de lÃƒÂ©gumes' 3 times.(ƒöÅÙ
+‘python:S101"sRename class "test_parser_off_ParserOff" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(Éò‹Ö8€§ı.
+rpython:S11926"UDefine a constant instead of duplicating this literal 'purÃƒÂ©e de carottes' 3 times.( ©ŞÌúÿÿÿÿ
+{python:S1192<"\Define a constant instead of duplicating this literal 'purÃƒÂ©e de pommes de terre' 3 times.(õÇ²ë8Ò»µ§ı.

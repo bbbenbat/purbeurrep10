@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1af13422-2f22-4929-96e0-3d62adc122eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n3SFbUBLNpPvZN3BzQtX2b3tql" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;&#10;" module-name="purbeurre" is-module-sdk="true">
+        <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;&#10;" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="purbeurre" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OCR\P8 - Pur Beurre (plateforme)\purbeurre\test\unit\researches\controllers\fixtures" />
+      <recent name="D:\OCR\P8 - Pur Beurre (plateforme)\purbeurre\researches" />
+      <recent name="D:\OCR\P8 - Pur Beurre (plateforme)\purbeurre" />
+      <recent name="D:\OCR\P8 - Pur Beurre (plateforme)\purbeurre\test\unit" />
+      <recent name="D:\OCR\P8 - Pur Beurre (plateforme)\purbeurre\test\functional" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_save_data_api.py">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OCR\venv\purbeurre_p8\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save_data_api" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/researches/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/researches/api/save_data_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/researches" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/researches/start_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/researches/start_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OCR\venv\purbeurre_p8\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <arguments>
+        <array />
+      </arguments>
+      <runOnlyEnvs>
+        <array />
+      </runOnlyEnvs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in bin" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\OCR\venv\purbeurre_p8\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_best_product.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/researches/controllers/test_best_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_favorites.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/researches/controllers/test_favorites.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_info_prod.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/researches/controllers/test_info_prod.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_parser_off.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/researches/controllers/test_parser_off.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_save_data_api.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="purbeurre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="purbeurre.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/unit/researches/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/unit/researches/controllers/test_save_data_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.save_data_api" />
+      <item itemvalue="Python.favorites" />
+      <item itemvalue="Python.start_db" />
+      <item itemvalue="Python tests.Unittests in bin" />
+      <item itemvalue="Python tests.Unittests in test_parser_off.py" />
+      <item itemvalue="Python tests.Unittests in test_best_product.py" />
+      <item itemvalue="Python tests.Unittests in test_favorites.py" />
+      <item itemvalue="Python tests.Unittests in test_info_prod.py" />
+      <item itemvalue="Python tests.Unittests in test_save_data_api.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_save_data_api.py" />
+        <item itemvalue="Python tests.Unittests in test_info_prod.py" />
+        <item itemvalue="Python tests.Unittests in test_favorites.py" />
+        <item itemvalue="Python tests.Unittests in test_best_product.py" />
+        <item itemvalue="Python.start_db" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1af13422-2f22-4929-96e0-3d62adc122eb" name="Default Changelist" comment="" />
+      <created>1610617179962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610617179962</updated>
+    </task>
+    <task id="LOCAL-00081" summary="update start_db.py">
+      <created>1615561139626</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1615561139626</updated>
+    </task>
+    <task id="LOCAL-00082" summary="update README.md">
+      <created>1615763394138</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615763394138</updated>
+    </task>
+    <task id="LOCAL-00083" summary="update README.md">
+      <created>1615763564523</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1615763564523</updated>
+    </task>
+    <task id="LOCAL-00084" summary="update docstring">
+      <created>1615799999057</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1615799999057</updated>
+    </task>
+    <task id="LOCAL-00085" summary="ip address">
+      <created>1616162204088</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1616162204088</updated>
+    </task>
+    <task id="LOCAL-00086" summary="modif db">
+      <created>1616162683123</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1616162683123</updated>
+    </task>
+    <task id="LOCAL-00087" summary="modif db">
+      <created>1616162759347</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1616162759347</updated>
+    </task>
+    <task id="LOCAL-00088" summary="modif ip address">
+      <created>1616163287334</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1616163287334</updated>
+    </task>
+    <task id="LOCAL-00089" summary="modif ip address">
+      <created>1616163364346</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1616163364346</updated>
+    </task>
+    <task id="LOCAL-00090" summary="modif ip address">
+      <created>1616163527117</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1616163527117</updated>
+    </task>
+    <task id="LOCAL-00091" summary="change static">
+      <created>1616168280922</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1616168280922</updated>
+    </task>
+    <task id="LOCAL-00092" summary="clean">
+      <created>1616178733900</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1616178733900</updated>
+    </task>
+    <task id="LOCAL-00093" summary="clean">
+      <created>1616186826386</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1616186826386</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update allowed host to prod_settings.py">
+      <created>1616190235269</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1616190235270</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update allowed host to settings.py">
+      <created>1616190422183</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1616190422183</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update allowed host to settings.py">
+      <created>1616190718916</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1616190718916</updated>
+    </task>
+    <task id="LOCAL-00097" summary="update allowed host to settings.py">
+      <created>1616191274653</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1616191274653</updated>
+    </task>
+    <task id="LOCAL-00098" summary="update allowed host to settings.py">
+      <created>1616191944916</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1616191944916</updated>
+    </task>
+    <task id="LOCAL-00099" summary="delete allowed host to prod_settings.py">
+      <created>1616192070716</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1616192070716</updated>
+    </task>
+    <task id="LOCAL-00100" summary="update settings delete aws">
+      <created>1616192642199</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1616192642199</updated>
+    </task>
+    <task id="LOCAL-00101" summary="db setting">
+      <created>1616193175820</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1616193175820</updated>
+    </task>
+    <task id="LOCAL-00102" summary="db setting old">
+      <created>1616193300416</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1616193300416</updated>
+    </task>
+    <task id="LOCAL-00103" summary="db setting old">
+      <created>1616193579182</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1616193579182</updated>
+    </task>
+    <task id="LOCAL-00104" summary="update settings.py">
+      <created>1616223632120</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1616223632120</updated>
+    </task>
+    <task id="LOCAL-00105" summary="update settings.py">
+      <created>1616223802822</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1616223802822</updated>
+    </task>
+    <task id="LOCAL-00106" summary="update settings.py witout aws">
+      <created>1616235729387</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1616235729387</updated>
+    </task>
+    <task id="LOCAL-00107" summary="update settings.py db info">
+      <created>1616237504525</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237504525</updated>
+    </task>
+    <task id="LOCAL-00108" summary="update settings.py db info">
+      <created>1616239255275</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239255275</updated>
+    </task>
+    <task id="LOCAL-00109" summary="update settings.py db info">
+      <created>1616239872287</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239872287</updated>
+    </task>
+    <task id="LOCAL-00110" summary="clean settings var env">
+      <created>1616241747399</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1616241747399</updated>
+    </task>
+    <task id="LOCAL-00111" summary="clean settings var env">
+      <created>1616242824976</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1616242824976</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Add travis file">
+      <created>1616347783243</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1616347783243</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Update&#10;travis file">
+      <created>1617891285037</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1617891285037</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Update&#10;travis file">
+      <created>1617891672604</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1617891672604</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Update travis file">
+      <created>1617891710684</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1617891710684</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Update travis ci">
+      <created>1617892074887</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1617892074887</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Update &#10;settings.py&#10;debug false">
+      <created>1617892690837</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1617892690837</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Update &#10;purbeurre.urls, researches.views&#10;error 404 &amp; 500">
+      <created>1617894035510</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1617894035510</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Add&#10;404 &amp; 500">
+      <created>1617896257164</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1617896257164</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Update&#10;views.py">
+      <created>1617897288017</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1617897288017</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Update&#10;settings.py&#10;DSN var">
+      <created>1617897947025</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1617897947025</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Update&#10;settings.py&#10;DSN var">
+      <created>1617898442440</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1617898442440</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Update&#10;settings.py">
+      <created>1617898637578</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1617898637578</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Update&#10;settings.py">
+      <created>1617898933278</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1617898933278</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Update&#10;settings.py&#10;DSN os var">
+      <created>1617899170643</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1617899170643</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Update&#10;settings.py&#10;error 404,500">
+      <created>1617901455395</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1617901455395</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Delete&#10;404 &amp; 500 page">
+      <created>1617901881477</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1617901881478</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Update&#10;settings.py&#10;ip server">
+      <created>1617902256058</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1617902256058</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Update&#10;.travis.yml">
+      <created>1617902709721</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1617902709721</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="update allowed host to prod_settings.py" />
+    <MESSAGE value="update allowed host to settings.py" />
+    <MESSAGE value="delete allowed host to prod_settings.py" />
+    <MESSAGE value="update settings delete aws" />
+    <MESSAGE value="db setting" />
+    <MESSAGE value="db setting old" />
+    <MESSAGE value="update settings.py" />
+    <MESSAGE value="update settings.py witout aws" />
+    <MESSAGE value="update settings.py db info" />
+    <MESSAGE value="clean settings var env" />
+    <MESSAGE value="Add travis file" />
+    <MESSAGE value="Update&#10;travis file" />
+    <MESSAGE value="Update travis file" />
+    <MESSAGE value="Update travis ci" />
+    <MESSAGE value="Update &#10;settings.py&#10;debug false" />
+    <MESSAGE value="Update &#10;purbeurre.urls, researches.views&#10;error 404 &amp; 500" />
+    <MESSAGE value="Add&#10;404 &amp; 500" />
+    <MESSAGE value="Update&#10;views.py" />
+    <MESSAGE value="Update&#10;settings.py&#10;DSN var" />
+    <MESSAGE value="Update&#10;settings.py" />
+    <MESSAGE value="Update&#10;settings.py&#10;DSN os var" />
+    <MESSAGE value="Update&#10;settings.py&#10;error 404,500" />
+    <MESSAGE value="Delete&#10;404 &amp; 500 page" />
+    <MESSAGE value="Update&#10;settings.py&#10;ip server" />
+    <MESSAGE value="Update&#10;.travis.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;.travis.yml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="304" key="#Chrome_Settings" timestamp="1614680396960">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="527" y="304" key="#Chrome_Settings/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1614680396960" />
+    <state x="1184" y="124" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616176005018">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1184" y="124" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616176005018" />
+    <state x="110" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611918273044" />
+    <state x="110" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610746847126" />
+    <state x="1039" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614260339887">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1039" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1614260339887" />
+    <state x="960" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613986444696">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="960" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1613986444696" />
+    <state x="1010" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611327900271">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1010" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611327900271" />
+    <state x="1010" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610722171610" />
+    <state x="1307" y="1" key="CommitChangelistDialog2" timestamp="1617902709069">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1307" y="13" key="CommitChangelistDialog2/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611404967846" />
+    <state x="411" y="12" key="CommitChangelistDialog2/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616347782624" />
+    <state x="1307" y="1" key="CommitChangelistDialog2/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1617902709069" />
+    <state x="267" y="15" key="CommitChangelistDialog2/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610717399159" />
+    <state x="505" y="123" width="608" height="804" key="EnvironmentVariablesDialog" timestamp="1615234577378">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="505" y="123" width="608" height="804" key="EnvironmentVariablesDialog/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615234577378" />
+    <state x="505" y="123" width="681" height="804" key="EnvironmentVariablesDialog/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1610913224864" />
+    <state x="505" y="123" width="667" height="804" key="EnvironmentVariablesDialog/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610746571714" />
+    <state x="604" y="289" key="FileChooserDialogImpl" timestamp="1616185997755">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1414" y="313" key="FileChooserDialogImpl/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611325968085" />
+    <state x="604" y="289" key="FileChooserDialogImpl/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616185997755" />
+    <state x="1414" y="313" key="FileChooserDialogImpl/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116442547" />
+    <state x="1414" y="313" key="FileChooserDialogImpl/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610744794847" />
+    <state x="516" y="427" key="Github.ShareDialog" timestamp="1616186236399">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="516" y="427" key="Github.ShareDialog/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616186236399" />
+    <state x="443" y="148" key="Github.UntrackedFilesDialog" timestamp="1616186342138">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="443" y="148" key="Github.UntrackedFilesDialog/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616186342138" />
+    <state width="1256" height="364" key="GridCell.Tab.0.bottom" timestamp="1616178841867">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1345" height="199" key="GridCell.Tab.0.bottom/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@-1366.310.1366.738" timestamp="1611669244980" />
+    <state width="2539" height="199" key="GridCell.Tab.0.bottom/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611763148145" />
+    <state width="1256" height="364" key="GridCell.Tab.0.bottom/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616178841867" />
+    <state width="2539" height="197" key="GridCell.Tab.0.bottom/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1613122089744" />
+    <state width="2539" height="108" key="GridCell.Tab.0.bottom/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610748787433" />
+    <state width="1256" height="364" key="GridCell.Tab.0.center" timestamp="1616178841867">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1345" height="199" key="GridCell.Tab.0.center/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@-1366.310.1366.738" timestamp="1611669244980" />
+    <state width="2539" height="199" key="GridCell.Tab.0.center/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611763148145" />
+    <state width="1256" height="364" key="GridCell.Tab.0.center/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616178841867" />
+    <state width="2539" height="197" key="GridCell.Tab.0.center/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1613122089744" />
+    <state width="2539" height="108" key="GridCell.Tab.0.center/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610748787433" />
+    <state width="1256" height="364" key="GridCell.Tab.0.left" timestamp="1616178841866">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1345" height="199" key="GridCell.Tab.0.left/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@-1366.310.1366.738" timestamp="1611669244980" />
+    <state width="2539" height="199" key="GridCell.Tab.0.left/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611763148144" />
+    <state width="1256" height="364" key="GridCell.Tab.0.left/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616178841866" />
+    <state width="2539" height="197" key="GridCell.Tab.0.left/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1613122089744" />
+    <state width="2539" height="108" key="GridCell.Tab.0.left/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610748787433" />
+    <state width="1256" height="364" key="GridCell.Tab.0.right" timestamp="1616178841867">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1345" height="199" key="GridCell.Tab.0.right/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@-1366.310.1366.738" timestamp="1611669244980" />
+    <state width="2539" height="199" key="GridCell.Tab.0.right/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611763148145" />
+    <state width="1256" height="364" key="GridCell.Tab.0.right/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616178841867" />
+    <state width="2539" height="197" key="GridCell.Tab.0.right/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1613122089744" />
+    <state width="2539" height="108" key="GridCell.Tab.0.right/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610748787433" />
+    <state width="1258" height="360" key="GridCell.Tab.1.bottom" timestamp="1615395962261">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="358" key="GridCell.Tab.1.bottom/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611746395409" />
+    <state width="1258" height="360" key="GridCell.Tab.1.bottom/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615395962261" />
+    <state width="2539" height="358" key="GridCell.Tab.1.bottom/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116443886" />
+    <state width="1258" height="360" key="GridCell.Tab.1.center" timestamp="1615395962260">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="358" key="GridCell.Tab.1.center/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611746395409" />
+    <state width="1258" height="360" key="GridCell.Tab.1.center/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615395962260" />
+    <state width="2539" height="358" key="GridCell.Tab.1.center/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116443886" />
+    <state width="1258" height="360" key="GridCell.Tab.1.left" timestamp="1615395962260">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="358" key="GridCell.Tab.1.left/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611746395409" />
+    <state width="1258" height="360" key="GridCell.Tab.1.left/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615395962260" />
+    <state width="2539" height="358" key="GridCell.Tab.1.left/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116443886" />
+    <state width="1258" height="360" key="GridCell.Tab.1.right" timestamp="1615395962260">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="358" key="GridCell.Tab.1.right/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611746395409" />
+    <state width="1258" height="360" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615395962260" />
+    <state width="2539" height="358" key="GridCell.Tab.1.right/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116443886" />
+    <state x="1136" y="203" key="SettingsEditor" timestamp="1617896332786">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="382" y="251" key="SettingsEditor/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611309804072" />
+    <state x="465" y="206" key="SettingsEditor/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616186197595" />
+    <state x="1136" y="203" key="SettingsEditor/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1617896332786" />
+    <state x="1136" y="203" key="SettingsEditor/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610745543879" />
+    <state width="521" height="446" key="SwitcherDM" timestamp="1614184919227">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="521" height="446" key="SwitcherDM/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1614184919227" />
+    <state x="232" y="254" key="Vcs.Push.Dialog.v2" timestamp="1617902723800">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="232" y="254" key="Vcs.Push.Dialog.v2/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611404971835" />
+    <state x="1108" y="244" key="Vcs.Push.Dialog.v2/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616347786048" />
+    <state x="232" y="254" key="Vcs.Push.Dialog.v2/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1617902723800" />
+    <state x="232" y="254" key="Vcs.Push.Dialog.v2/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610717407369" />
+    <state x="1097" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613322475506">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1097" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1613322475506" />
+    <state x="1725" y="350" width="780" height="695" key="dock-window-1" timestamp="1613986901537">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1725" y="350" width="780" height="695" key="dock-window-1/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1613986901537" />
+    <state x="1095" y="345" key="export.test.results" timestamp="1615319601926">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1095" y="345" key="export.test.results/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615319601926" />
+    <state x="942" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1615493390416">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="942" y="231" width="672" height="678" key="search.everywhere.popup/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611418552167" />
+    <state x="942" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615493390416" />
+    <state x="942" y="231" width="672" height="678" key="search.everywhere.popup/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1610915447572" />
+  </component>
+</project>
