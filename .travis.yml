@@ -16,4 +16,4 @@ branches:
     - master
 
 script:
-  - pytest
+  - pytest test/unit
