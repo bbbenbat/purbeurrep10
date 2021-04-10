@@ -37,7 +37,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -905,12 +905,12 @@
     <state width="2539" height="358" key="GridCell.Tab.1.right/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611746395409" />
     <state width="1258" height="360" key="GridCell.Tab.1.right/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1615395962260" />
     <state width="2539" height="358" key="GridCell.Tab.1.right/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1612116443886" />
-    <state x="1136" y="203" key="SettingsEditor" timestamp="1617896332786">
+    <state x="1136" y="203" key="SettingsEditor" timestamp="1618051408483">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="382" y="251" key="SettingsEditor/-1024.-739.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1611309804072" />
     <state x="465" y="206" key="SettingsEditor/0.0.2560.1050/2560.-768.1024.738/-1366.310.1366.738@0.0.2560.1050" timestamp="1616186197595" />
-    <state x="1136" y="203" key="SettingsEditor/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1617896332786" />
+    <state x="1136" y="203" key="SettingsEditor/2560.-768.1024.738/-1366.310.1366.738/0.0.2560.1050@0.0.2560.1050" timestamp="1618051408483" />
     <state x="1136" y="203" key="SettingsEditor/2560.-768.1024.738/0.0.2560.1050/-1366.310.1366.738@0.0.2560.1050" timestamp="1610745543879" />
     <state width="521" height="446" key="SwitcherDM" timestamp="1614184919227">
       <screen x="0" y="0" width="2560" height="1050" />
