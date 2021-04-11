@@ -13,9 +13,8 @@ import os
 from pathlib import Path
 
 import sentry_sdk
-from sentry_sdk.integrations.django import DjangoIntegration
-
 from django.core.exceptions import ImproperlyConfigured
+from sentry_sdk.integrations.django import DjangoIntegration
 
 sentry_sdk.init(
     dsn=os.getenv('DSN_SENTRY'),
@@ -49,6 +48,8 @@ def get_env_variable(var_name, default_value):
         else:
             return default_value
 
+
+ENV_APP = os.getenv('ENV_APP')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -118,16 +119,29 @@ WSGI_APPLICATION = 'purbeurre.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 PWD_DB = os.getenv('DB_USER_PWD')
 USER_DB = os.getenv('DB_USER')
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'purbeurre',
-        'USER': USER_DB,
-        'PASSWORD': PWD_DB,
-        'HOST': 'localhost',
-        'PORT': '',
+
+if ENV_APP == 'production':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'purbeurre',
+            'USER': USER_DB,
+            'PASSWORD': PWD_DB,
+            'HOST': 'localhost',
+            'PORT': '',
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'p8purbeurre',
+            'USER': 'p8purbeurreuser',
+            'PASSWORD': 'Python2020',
+            'HOST': 'localhost',
+            'PORT': '',
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
