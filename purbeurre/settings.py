@@ -137,7 +137,7 @@ else:
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'p8purbeurre',
             'USER': 'p8purbeurreuser',
-            'PASSWORD': 'Python2020',
+            'PASSWORD': 'Python2021',
             'HOST': 'localhost',
             'PORT': '',
         }
